@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Dragon Dash </title>
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="dragondash.css" title="style" /> 
+        <link rel="icon" type="image/png" href="images/dragon_2.png">
+        <script src="dragondash.js"></script>
+	</head>
+    
+
+    <audio id = "jumpSFX"><source src="images/dragon-jump.mp3"></audio>
+    <audio id = "bgSong"><source src="images/play_song.wav"></audio>
+    <audio id = "titleSong"><source src="images/title_theme_song.wav"></audio>
+    <audio id = "dragonFallSFX"><source src="images/dragon-collide-SFX.mp3"></audio>
+    <audio id = "countdownSFX"><source src="images/count_down.mp3"></audio>
+
+    <body>
+           <div class="game-container">
+                <div class = "messagePlay">Click 'Play' to Start</div>
+                <div class = "messageJump">Press Space bar to jump! </div>
+                <img src="images/title.png" class="title">
+                <div class="background"></div>
+                
+                <img src="images/scoreboard_banner.png" class="scoreboardBanner">
+
+                <img src="images/gameover_title.png" alt="invalid.img" class="gameoverTitle">
+                <div class="scoreboard">
+                    <p id="current-score">Your Score: 0</p>
+                    <p id="best-score">Best Score: 0</p>
+                </div>
+                <button class="replay">REPLAY</button>
+                <img src="images/default_dragon.png" class="dragon">
+                <img src="images/playbutton.png" alt="invalid.img" class="play" >
+                <img src="images/pausebutton.png" alt="invalid.img" class="pause" >
+                <img src="images/obstacle1_up.png" alt="invalid.img" class="obstacle">
+                <img src="images/obstacle1_up.png" alt="invalid.img" class="obstacle2"> <!--upside down obstacle--->
+                <div class="ground"></div>
+                <div class="score">Score: 0</div>
+                <div class="countdown">3</div>
+            </div>
+            
+          <div class="credits">Background art by TheFlavare on itch.io <br> Dragon art by paycarry on illust.com <br> Music by xDeviruchi on itch.io</div>
+          <footer>Authors: Isha Arif</footer>
+          
+    </body>
+</html>
